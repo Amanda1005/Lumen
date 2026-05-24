@@ -15,6 +15,7 @@ type Agent = {
   cluster_evidence: string[];
   lumen_score: number;
   grade: string;
+  analyst_note: string | null;
   breakdown: {
     completeness: number;
     capability: number;
@@ -135,6 +136,18 @@ export default function AgentDetailPage() {
             </div>
           )}
         </section>
+
+        {/* Analyst Note - NEW */}
+        {agent.analyst_note && (
+          <section className="border border-zinc-800 rounded p-6 bg-zinc-900/30">
+            <div className="text-xs text-zinc-500 tracking-widest mb-3">
+              LUMEN ANALYST NOTE
+            </div>
+            <p className="text-zinc-200 leading-relaxed text-sm italic">
+              {agent.analyst_note}
+            </p>
+          </section>
+        )}
 
         {/* Agent Info */}
         <section className="border border-zinc-800 rounded p-6">

@@ -67,7 +67,7 @@
       "activity": 0
     },
     "grade": "B",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a security-focused architecture with verified capabilities but zero production usage. The agent demonstrates full implementation of ERC-8004 policy receipts and intent verification on Mantle, indicating institutional-grade safety controls. However, complete absence of on-chain activity signals and client interactions suggests deployment in sandbox only. The firewall-gated design shows strong build quality, but lack of real-world validation presents unknowns. Recommend monitoring for actual trading activity before commercial assessment."
   },
   {
     "agent_id": 92,
@@ -123,7 +123,7 @@
       "activity": 0
     },
     "grade": "C",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed zero on-chain activity despite complete technical documentation for this Mantle yield optimizer. The agent claims multi-agent LangGraph architecture with regime detection capabilities, yet shows no transaction history, no client interactions, and no verifiable yield rebalancing operations across its stated mETH/USDY/WMNT markets. Owner reputation is established, but capability and activity scores of zero indicate the agent has never executed its core function. Avoid until deployment evidence emerges."
   },
   {
     "agent_id": 1,
@@ -267,7 +267,7 @@
       "activity": 20
     },
     "grade": "C",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a significant capability-execution gap in this financial agent's deployment. Despite comprehensive technical documentation (80/100 completeness) and a credible owner with established reputation, the agent shows zero verifiable on-chain transactions and no demonstrated autonomous capabilities. The 296 feedback signals from a single client suggest internal testing rather than production deployment. Recommend monitoring for 30 days before considering live capital allocation."
   },
   {
     "agent_id": 0,
@@ -447,7 +447,7 @@
       "activity": 0
     },
     "grade": "C",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed significant profile-execution gap for this infrastructure-focused agent. While ownership credentials are verified (100/100) and technical documentation appears complete (80/100), the agent shows zero measurable on-chain activity and no capability demonstration despite claims of building SDK products and repair tools. No client feedback signals detected across any chain. The mismatch between stated infrastructure ambitions and absence of verifiable output suggests either pre-launch positioning or stalled development. Recommend avoid until capability metrics materialize."
   },
   {
     "agent_id": 91,
@@ -762,7 +762,7 @@
       "activity": 0
     },
     "grade": "C",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed that ClawdMint presents a significant capability-execution gap despite complete documentation. The agent claims blockchain analysis and micropayment functionality but shows zero verifiable on-chain activity and no measurable capability deployment. Owner reputation remains pristine at 100/100, indicating technical competence exists but hasn't translated to agent performance. The absence of client signals despite \"multichain\" positioning suggests either pre-launch status or failed market fit. Recommend monitoring for 30 days to determine if this represents development lag or structural non-viability."
   },
   {
     "agent_id": 93,
@@ -841,7 +841,7 @@
       "activity": 0
     },
     "grade": "C",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed Pantr operates as a configuration-only interface with zero demonstrated autonomous capability. The agent claims Claude-powered trading decisions across three chains, yet verifiability and activity metrics register null—no on-chain execution history, no client feedback signals, no measurable transaction flow. Documentation completeness (80/100) cannot substitute for operational proof. Owner reputation remains clean, but absence of trading activity contradicts core value proposition. Recommend avoiding until agent demonstrates actual on-chain decision-making and accumulates verifiable transaction history."
   },
   {
     "agent_id": 94,
@@ -887,7 +887,7 @@
       "activity": 0
     },
     "grade": "C",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed zero operational activity despite comprehensive technical documentation for this Mantle-focused intelligence agent. The owner maintains strong on-chain reputation (100/100), and system architecture is well-specified (80/100 completeness), but absence of capability demonstration, client signals, and verifiable outputs indicates the agent remains dormant or pre-launch. No liquidity monitoring transactions, no smart-money alerts, no decision proofs exist on-chain. Recommend monitoring for 30 days before deployment consideration; current state suggests vaporware risk despite credible ownership."
   },
   {
     "agent_id": 96,
@@ -916,7 +916,7 @@
       "activity": 0
     },
     "grade": "D",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a dormant agent with zero operational indicators despite originating from a credible owner. The agent lacks basic registration data, shows no transaction activity, and has received no client feedback signals since deployment. While the owner's established reputation prevents elevated risk classification, the complete absence of capability demonstration or verifiable outputs suggests abandonment. Avoid until material development occurs."
   },
   {
     "agent_id": 2,
@@ -952,7 +952,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 3,
@@ -988,7 +988,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 4,
@@ -1024,7 +1024,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 5,
@@ -1060,7 +1060,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 6,
@@ -1096,7 +1096,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 7,
@@ -1132,7 +1132,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 8,
@@ -1168,7 +1168,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 9,
@@ -1204,7 +1204,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 10,
@@ -1240,7 +1240,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 11,
@@ -1276,7 +1276,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 12,
@@ -1312,7 +1312,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 13,
@@ -1348,7 +1348,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 14,
@@ -1384,7 +1384,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 15,
@@ -1420,7 +1420,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 16,
@@ -1456,7 +1456,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 17,
@@ -1492,7 +1492,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 18,
@@ -1528,7 +1528,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 19,
@@ -1564,7 +1564,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 20,
@@ -1600,7 +1600,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 21,
@@ -1636,7 +1636,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 22,
@@ -1672,7 +1672,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 23,
@@ -1708,7 +1708,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 24,
@@ -1744,7 +1744,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 25,
@@ -1780,7 +1780,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 26,
@@ -1816,7 +1816,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 27,
@@ -1852,7 +1852,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 28,
@@ -1888,7 +1888,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 29,
@@ -1924,7 +1924,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 30,
@@ -1960,7 +1960,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 31,
@@ -1996,7 +1996,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 32,
@@ -2032,7 +2032,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 33,
@@ -2068,7 +2068,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 34,
@@ -2104,7 +2104,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 35,
@@ -2140,7 +2140,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 36,
@@ -2176,7 +2176,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 37,
@@ -2212,7 +2212,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 38,
@@ -2248,7 +2248,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 39,
@@ -2284,7 +2284,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 40,
@@ -2320,7 +2320,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 41,
@@ -2356,7 +2356,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 42,
@@ -2392,7 +2392,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 43,
@@ -2428,7 +2428,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 44,
@@ -2464,7 +2464,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 45,
@@ -2500,7 +2500,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 46,
@@ -2536,7 +2536,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 47,
@@ -2572,7 +2572,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 48,
@@ -2608,7 +2608,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 49,
@@ -2644,7 +2644,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 50,
@@ -2680,7 +2680,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 51,
@@ -2716,7 +2716,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 52,
@@ -2752,7 +2752,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 53,
@@ -2788,7 +2788,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 54,
@@ -2824,7 +2824,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 55,
@@ -2860,7 +2860,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 56,
@@ -2896,7 +2896,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 57,
@@ -2932,7 +2932,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 58,
@@ -2968,7 +2968,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 59,
@@ -3004,7 +3004,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 60,
@@ -3040,7 +3040,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 61,
@@ -3076,7 +3076,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 62,
@@ -3112,7 +3112,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 63,
@@ -3148,7 +3148,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 64,
@@ -3184,7 +3184,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 65,
@@ -3220,7 +3220,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 66,
@@ -3256,7 +3256,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 67,
@@ -3292,7 +3292,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 68,
@@ -3328,7 +3328,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 69,
@@ -3364,7 +3364,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 70,
@@ -3400,7 +3400,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 71,
@@ -3436,7 +3436,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 72,
@@ -3472,7 +3472,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 73,
@@ -3508,7 +3508,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 74,
@@ -3544,7 +3544,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 75,
@@ -3580,7 +3580,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 76,
@@ -3616,7 +3616,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 77,
@@ -3652,7 +3652,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 78,
@@ -3688,7 +3688,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 79,
@@ -3724,7 +3724,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 80,
@@ -3760,7 +3760,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 81,
@@ -3796,7 +3796,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 82,
@@ -3832,7 +3832,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 83,
@@ -3868,7 +3868,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 84,
@@ -3904,7 +3904,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 85,
@@ -3940,7 +3940,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 86,
@@ -3976,7 +3976,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 87,
@@ -4012,7 +4012,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 88,
@@ -4048,7 +4048,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 89,
@@ -4084,7 +4084,7 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   },
   {
     "agent_id": 90,
@@ -4120,6 +4120,6 @@
       "activity": 0
     },
     "grade": "F",
-    "analyst_note": null
+    "analyst_note": "Lumen analysts observed a sybil network comprising 89 agents under common control, with 87 sharing identical descriptions. The sequential naming pattern (babycaisubagent-001 through 102) and zero on-chain activity signals indicate coordinated registration without operational deployment. No capability evidence exists across the entire cluster. Avoid engagement."
   }
 ]

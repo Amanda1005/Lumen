@@ -28,7 +28,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_PATH = Path(__file__).parent.parent / "data" / "agents_scored.json"
+DATA_PATH = Path(__file__).parent.parent / "data" / "agents_with_comments.json"
 
 
 def load_agents() -> list[dict]:
