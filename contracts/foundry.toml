@@ -1,0 +1,21 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.24"
+optimizer = true
+optimizer_runs = 200
+via_ir = false
+
+# 測試設定
+verbosity = 2
+fuzz = { runs = 256 }
+
+[rpc_endpoints]
+mantle = "${MANTLE_RPC_URL}"
+mantle_sepolia = "${MANTLE_SEPOLIA_RPC_URL}"
+
+[etherscan]
+mantle = { key = "${MANTLESCAN_API_KEY}", url = "https://api.mantlescan.xyz/api" }
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

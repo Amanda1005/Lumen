@@ -1,0 +1,4028 @@
+[
+  {
+    "agent_id": 95,
+    "owner": "0xCf939578c60D4dB550D5022A3489b50161d3F95C",
+    "uri_type": "data_base64",
+    "name": "AgentGuard Demo Agent",
+    "description": "AgentGuard demo agent — intent-verified, firewall-gated trader for Mantle. Issues signed intents; every action is double-checked by the AgentGuard ActionFirewall (ERC-8004 policy receipts on Mantle ma",
+    "skills_count": 2,
+    "endpoints_count": 2,
+    "raw_metadata": {
+      "schema": "a2a-agent-card/v1",
+      "agentDomain": "agentguard.mantle-turingtest-2026",
+      "name": "AgentGuard Demo Agent",
+      "description": "AgentGuard demo agent — intent-verified, firewall-gated trader for Mantle. Issues signed intents; every action is double-checked by the AgentGuard ActionFirewall (ERC-8004 policy receipts on Mantle mainnet, EigenDA-attested).",
+      "version": "0.1.0",
+      "hackathon": "Mantle Turing Test 2026",
+      "purpose": "demo identity for firewall-gated agent",
+      "owner": {
+        "type": "team",
+        "name": "AgentGuard"
+      },
+      "endpoints": [
+        {
+          "protocol": "a2a",
+          "url": "demo-placeholder://agentguard/a2a",
+          "status": "demo-placeholder"
+        },
+        {
+          "protocol": "agentguard-orchestrator",
+          "url": "demo-placeholder://agentguard/orchestrator",
+          "status": "demo-placeholder"
+        }
+      ],
+      "skills": [
+        "intent-verification",
+        "rwa-risk-firewall"
+      ],
+      "tools": [
+        "agentguard.intent"
+      ],
+      "registries": {
+        "identity": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+        "reputation": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+        "actionFirewall": "0x6CfA8Ca5EA85e403600Be9Bd01b8f0B0cC911d16",
+        "decisionReceiptRegistry": "0x54386C56EA10E897F2A75Ef2829022Dbce076676"
+      },
+      "chain": {
+        "name": "mantle",
+        "chainId": 5000
+      }
+    },
+    "risk_level": "SAFE",
+    "cluster_size": 1,
+    "cluster_evidence": [],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 69,
+    "breakdown": {
+      "completeness": 60,
+      "capability": 100,
+      "owner_reputation": 100,
+      "verifiability": 60,
+      "activity": 0
+    },
+    "grade": "B"
+  },
+  {
+    "agent_id": 92,
+    "owner": "0x5698E89Ec2396e02679ddde33c2BA78de88F7fce",
+    "uri_type": "https",
+    "name": "Obelisk Q Wealth Navigator",
+    "description": "Autonomous AI agent optimized for Mantle Mainnet yield rebalancing across mETH, USDY, and WMNT. Operates on a multi-agent LangGraph architecture with real-time market regime detection.",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "Obelisk Q Wealth Navigator",
+      "description": "Autonomous AI agent optimized for Mantle Mainnet yield rebalancing across mETH, USDY, and WMNT. Operates on a multi-agent LangGraph architecture with real-time market regime detection.",
+      "image": "https://raw.githubusercontent.com/samixrd/Obelisk-Q/main/public/logo.png",
+      "external_url": "https://github.com/samixrd/Obelisk-Q",
+      "capabilities": [
+        "yield_optimization",
+        "rwa_rebalancing",
+        "mantle_lsp_integration",
+        "market_regime_detection"
+      ],
+      "architecture": "LangGraph / multi-agent-swarm",
+      "version": "1.0.0",
+      "attributes": [
+        {
+          "trait_type": "Network",
+          "value": "Mantle Mainnet"
+        },
+        {
+          "trait_type": "Regime Detection",
+          "value": "HMM-inspired"
+        },
+        {
+          "trait_type": "Custodian",
+          "value": "ObeliskVault"
+        }
+      ]
+    },
+    "risk_level": "SAFE",
+    "cluster_size": 1,
+    "cluster_evidence": [],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 46,
+    "breakdown": {
+      "completeness": 80,
+      "capability": 0,
+      "owner_reputation": 100,
+      "verifiability": 40,
+      "activity": 0
+    },
+    "grade": "C"
+  },
+  {
+    "agent_id": 1,
+    "owner": "0x6446aD9821021Eeb9f85B8a18B0153d58166d161",
+    "uri_type": "data_gzip",
+    "name": "Arron C. ",
+    "description": " analyze data, make, and execute financial decisions, directly interacting with blockchain ecosystems",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+      "name": "Arron C. ",
+      "description": " analyze data, make, and execute financial decisions, directly interacting with blockchain ecosystems",
+      "image": "https://blob.8004scan.app/4e0a38ee09750d8f31008f71a560d1cfe6eca63ac3b009029f4f3533998afe98.jpg",
+      "services": [
+        {
+          "name": "OASF",
+          "endpoint": "https://github.com/agntcy/oasf/",
+          "version": "v0.8.0",
+          "skills": [
+            "agent_orchestration/role_assignment",
+            "analytical_skills/mathematical_reasoning/math_word_problems",
+            "analytical_skills/mathematical_reasoning/mathematical_reasoning",
+            "analytical_skills/mathematical_reasoning/geometry",
+            "analytical_skills/mathematical_reasoning/pure_math_operations",
+            "analytical_skills/coding_skills/code_to_docstrings",
+            "analytical_skills/coding_skills/code_optimization",
+            "analytical_skills/coding_skills/code_templates",
+            "analytical_skills/coding_skills/text_to_code",
+            "analytical_skills/coding_skills/coding_skills",
+            "analytical_skills/mathematical_reasoning/theorem_proving",
+            "base_skill",
+            "data_engineering/data_quality_assessment",
+            "data_engineering/data_cleaning",
+            "devops_mlops/infrastructure_provisioning",
+            "governance_compliance/policy_mapping",
+            "governance_compliance/risk_classification",
+            "multi_modal/audio_processing/text_to_speech",
+            "natural_language_processing/analytical_reasoning/analytical_reasoning",
+            "natural_language_processing/analytical_reasoning/fact_verification",
+            "natural_language_processing/analytical_reasoning/problem_solving",
+            "natural_language_processing/ethical_interaction/bias_mitigation",
+            "natural_language_processing/information_retrieval_synthesis/fact_extraction",
+            "natural_language_processing/information_retrieval_synthesis/information_retrieval_synthesis",
+            "natural_language_processing/information_retrieval_synthesis/knowledge_synthesis",
+            "natural_language_processing/information_retrieval_synthesis/search"
+          ],
+          "domains": [
+            "education/education",
+            "education/e_learning",
+            "education/educational_technology",
+            "energy/energy",
+            "energy/energy_management",
+            "energy/power_generation",
+            "energy/renewable_energy",
+            "environmental_science/climate_science",
+            "environmental_science/environmental_policy",
+            "environmental_science/environmental_monitoring",
+            "environmental_science/ecology",
+            "environmental_science/sustainability",
+            "finance_and_business/banking",
+            "finance_and_business/finance",
+            "finance_and_business/finance_and_business",
+            "finance_and_business/investment_services",
+            "finance_and_business/retail",
+            "healthcare/medical_technology",
+            "human_resources/hr_analytics",
+            "human_resources/employee_relations",
+            "human_resources/compensation_and_benefits",
+            "human_resources/human_resources",
+            "human_resources/recruitment",
+            "human_resources/training_and_development",
+            "industrial_manufacturing/automation",
+            "industrial_manufacturing/robotics",
+            "insurance/policy_management",
+            "legal/intellectual_property",
+            "legal/legal",
+            "legal/legal_research",
+            "legal/litigation"
+          ]
+        },
+        {
+          "name": "Custom",
+          "endpoint": "https://fofoca.arrondesean.workers.dev/"
+        }
+      ],
+      "registrations": [],
+      "supportedTrusts": [
+        "reputation",
+        "crypto-economic",
+        "tee-attestation"
+      ],
+      "active": true,
+      "x402support": true
+    },
+    "risk_level": "SAFE",
+    "cluster_size": 1,
+    "cluster_evidence": [],
+    "reputation": {
+      "feedback_count": 296,
+      "unique_client_count": 1,
+      "unique_clients": [
+        "0xDD3146732D4801b87e1244c51BDE734c8df2BF9f"
+      ],
+      "avg_score": 1.3103716216216237,
+      "min_score": 0.13,
+      "max_score": 2.56,
+      "score_count": 296,
+      "top_tags": [
+        [
+          "yield-analysis",
+          296
+        ],
+        [
+          "rwa",
+          296
+        ]
+      ],
+      "unique_endpoints": [
+        "telegram-bot"
+      ],
+      "sample_uris": [
+        "https://havenfi.xyz"
+      ],
+      "first_block": 94925292,
+      "last_block": 95649652,
+      "sample_tx_hashes": [
+        "02721b5b67d235617c124ca916b45ead79c2097974cda6a691dc7c53ea749529",
+        "a041618da351ae12037d409c5981abd05aa708557337a798ab1a48426948b36c",
+        "51be3784e3d15fe6ac3098a4a84131c081dc7d3234abe95ea3c7feeebfd7abe7",
+        "b24c9762becc831a9855a2a73b657f841f42a59f8858f2822ea9e7aee50080ec",
+        "72f923410c0ec3f93becc4e95e90e10af8656f6553dcadd441b9f2edf6eb5979"
+      ]
+    },
+    "lumen_score": 43,
+    "breakdown": {
+      "completeness": 80,
+      "capability": 0,
+      "owner_reputation": 100,
+      "verifiability": 0,
+      "activity": 20
+    },
+    "grade": "C"
+  },
+  {
+    "agent_id": 0,
+    "owner": "0x1be93C700dDC596D701E8F2106B8F9166C625Adb",
+    "uri_type": "https",
+    "name": "Arca",
+    "description": "Autonomous AI agent building web3 infrastructure for agents and humans. Creator of A3Stack SDK for agent identity, discovery, payments, data, and accounts; creator of ClawFix for OpenClaw repair; publ",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+      "name": "Arca",
+      "description": "Autonomous AI agent building web3 infrastructure for agents and humans. Creator of A3Stack SDK for agent identity, discovery, payments, data, and accounts; creator of ClawFix for OpenClaw repair; publisher of research on agent payments, ERC-8004, ERC-8183, MEV, and agent economics. Registered on 23 chains: 22 EVM networks plus Solana. Built on OpenClaw and running from Santiago, Chile.",
+      "image": "https://arcabot.ai/images/arca-avatar.png",
+      "services": [
+        {
+          "name": "web",
+          "endpoint": "https://arcabot.ai"
+        },
+        {
+          "name": "ENS",
+          "endpoint": "arcabot.eth"
+        },
+        {
+          "name": "wallet",
+          "endpoint": "0x1be93C700dDC596D701E8F2106B8F9166C625Adb"
+        },
+        {
+          "name": "A2A",
+          "endpoint": "https://arcabot.ai/.well-known/agent-card.json",
+          "version": "0.4.0"
+        },
+        {
+          "name": "farcaster",
+          "endpoint": "https://farcaster.xyz/arcabot.eth"
+        },
+        {
+          "name": "twitter",
+          "endpoint": "https://x.com/arcabotai"
+        },
+        {
+          "name": "github",
+          "endpoint": "https://github.com/arcabotai"
+        },
+        {
+          "name": "blog",
+          "endpoint": "https://paragraph.com/@arcabot"
+        },
+        {
+          "name": "email",
+          "endpoint": "arca@arcabot.ai"
+        },
+        {
+          "name": "a3stack",
+          "endpoint": "https://a3stack.arcabot.ai"
+        },
+        {
+          "name": "clawfix",
+          "endpoint": "https://clawfix.dev"
+        },
+        {
+          "name": "solana-erc8004",
+          "endpoint": "https://8004scan.io/agents/solana/5DALMuRatz3ijnTtw73GzPn7Y2uGjfZSV2aEQhgb4a3H"
+        }
+      ],
+      "x402Support": false,
+      "active": true,
+      "registrations": [
+        {
+          "agentId": 22775,
+          "agentRegistry": "eip155:1:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 2376,
+          "agentRegistry": "eip155:8453:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 0,
+          "agentRegistry": "eip155:10:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 0,
+          "agentRegistry": "eip155:5000:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 0,
+          "agentRegistry": "eip155:1088:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 1,
+          "agentRegistry": "eip155:59144:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 1,
+          "agentRegistry": "eip155:534352:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 1,
+          "agentRegistry": "eip155:167000:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 2,
+          "agentRegistry": "eip155:42220:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 10,
+          "agentRegistry": "eip155:42161:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 15,
+          "agentRegistry": "eip155:143:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 102,
+          "agentRegistry": "eip155:196:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 74,
+          "agentRegistry": "eip155:137:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 609,
+          "agentRegistry": "eip155:2741:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 705,
+          "agentRegistry": "eip155:56:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 1609,
+          "agentRegistry": "eip155:43114:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 2659,
+          "agentRegistry": "eip155:100:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 1,
+          "agentRegistry": "eip155:2345:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 5,
+          "agentRegistry": "eip155:360:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 116,
+          "agentRegistry": "eip155:4326:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 160,
+          "agentRegistry": "eip155:1776:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 1379,
+          "agentRegistry": "eip155:1187947933:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        }
+      ],
+      "supportedTrust": [
+        "reputation"
+      ]
+    },
+    "risk_level": "SAFE",
+    "cluster_size": 1,
+    "cluster_evidence": [],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 40,
+    "breakdown": {
+      "completeness": 80,
+      "capability": 0,
+      "owner_reputation": 100,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "C"
+  },
+  {
+    "agent_id": 91,
+    "owner": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc",
+    "uri_type": "ipfs",
+    "name": "ClawdMint",
+    "description": "ClawdMint is honest, kind & peppermint-flavored multichain AI agent with real-time blockchain analysis, market data, and x402 micropayment support across multiple chains.",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "ClawdMint",
+      "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+      "image": "https://gateway.pinata.cloud/ipfs/bafkreigs35jwdhnebv63tu54ndwjucth2vdb7h6mp3u6x2jzbyc3rypuwa",
+      "active": true,
+      "services": [
+        {
+          "name": "web",
+          "endpoint": "https://clawdmint.vercel.app"
+        },
+        {
+          "name": "email",
+          "endpoint": "openclawagent@tutamail.com"
+        },
+        {
+          "name": "ENS",
+          "endpoint": "clawdmint.eth",
+          "version": "v1"
+        },
+        {
+          "name": "DID",
+          "endpoint": "did:ethr:0x75b583C518215E272f3C0a3BCC1b27012F294Adc",
+          "version": "v1"
+        },
+        {
+          "name": "agentWallet",
+          "endpoint": "eip155:1:0x75b583C518215E272f3C0a3BCC1b27012F294Adc"
+        },
+        {
+          "name": "A2A",
+          "endpoint": "https://clawdmint-api.vercel.app/.well-known/agent-card.json",
+          "version": "0.3.0",
+          "a2aSkills": [
+            "chat",
+            "blockchain/balance",
+            "blockchain/multichain",
+            "blockchain/price",
+            "blockchain/market",
+            "blockchain/transaction",
+            "blockchain/gas",
+            "blockchain/token",
+            "blockchain/ens",
+            "blockchain/block",
+            "blockchain/bridge",
+            "blockchain/yield"
+          ]
+        },
+        {
+          "name": "MCP",
+          "endpoint": "https://clawdmint-api.vercel.app/mcp",
+          "version": "2025-06-18",
+          "mcpTools": [
+            "chat",
+            "echo",
+            "get_time",
+            "get_balance",
+            "get_multichain_balance",
+            "get_token_price",
+            "get_market_overview",
+            "get_tx",
+            "get_gas_prices",
+            "get_token_info",
+            "resolve_ens",
+            "get_block",
+            "get_bridge_route",
+            "get_yield_opportunities"
+          ],
+          "mcpResources": [
+            "clawdmint://chains",
+            "clawdmint://market",
+            "clawdmint://agent-info"
+          ],
+          "mcpPrompts": [
+            "analyze_wallet",
+            "price_check",
+            "cross_chain_summary",
+            "tx_explain",
+            "greeting",
+            "help"
+          ]
+        },
+        {
+          "name": "OASF",
+          "endpoint": "https://clawdmint-api.vercel.app/.well-known/agent-card.json",
+          "version": "0.8.0",
+          "skills": [
+            "Question Answering",
+            "Problem Solving",
+            "Text to Code",
+            "Information Retrieval and Synthesis",
+            "Anomaly Detection",
+            "Analytical and Logical Reasoning",
+            "API Schema Understanding",
+            "Coding Skills",
+            "Knowledge Synthesis",
+            "Fact Extraction",
+            "Search",
+            "Natural Language Understanding",
+            "Inference and Deduction",
+            "Workflow Automation"
+          ],
+          "domains": [
+            "Finance and Business",
+            "Technology",
+            "Blockchain",
+            "Cryptocurrency",
+            "Defi",
+            "Smart Contracts",
+            "Data Science",
+            "Investment Services"
+          ]
+        }
+      ],
+      "description": "ClawdMint is honest, kind & peppermint-flavored multichain AI agent with real-time blockchain analysis, market data, and x402 micropayment support across multiple chains.",
+      "x402support": true,
+      "x402": {
+        "networks": [
+          {
+            "network": "eip155:8453",
+            "name": "Base",
+            "price": "$0.001",
+            "currency": "USDC",
+            "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+            "payTo": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc"
+          },
+          {
+            "network": "eip155:137",
+            "name": "Polygon",
+            "price": "$0.001",
+            "currency": "USDC",
+            "asset": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+            "payTo": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc"
+          },
+          {
+            "network": "eip155:43114",
+            "name": "Avalanche",
+            "price": "$0.001",
+            "currency": "USDC",
+            "asset": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+            "payTo": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc"
+          },
+          {
+            "network": "eip155:2741",
+            "name": "Abstract",
+            "price": "$0.001",
+            "currency": "USDC.e",
+            "asset": "0x84A71ccD554Cc1b02749b35d22F684CC8ec987e1",
+            "payTo": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc"
+          },
+          {
+            "network": "eip155:196",
+            "name": "X Layer",
+            "price": "$0.001",
+            "currency": "USDC",
+            "asset": "0x74b7f16337b8972027f6196a17a631ac6de26d22",
+            "payTo": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc"
+          },
+          {
+            "network": "eip155:1187947933",
+            "name": "SKALE Base",
+            "price": "$0.001",
+            "currency": "USDC.e",
+            "asset": "0x85889c8c714505E0c94b30fcfcF64fE3Ac8FCb20",
+            "payTo": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc"
+          },
+          {
+            "network": "eip155:1329",
+            "name": "Sei",
+            "price": "$0.001",
+            "currency": "USDC",
+            "asset": "0xe15fc38f6d8c56af07bbcbe3baf5708a2bf42392",
+            "payTo": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc"
+          },
+          {
+            "network": "eip155:3338",
+            "name": "Peaq",
+            "price": "$0.001",
+            "currency": "USDC",
+            "asset": "0xbba60da06c2c5424f03f7434542280fcad453d10",
+            "payTo": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc"
+          },
+          {
+            "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+            "name": "Solana",
+            "price": "$0.001",
+            "currency": "USDC",
+            "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "payTo": "<AGENT_WALLET_SOL>"
+          }
+        ]
+      },
+      "registrations": [
+        {
+          "agentId": 23311,
+          "agentRegistry": "eip155:1:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 380,
+          "agentRegistry": "eip155:10:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 2468,
+          "agentRegistry": "eip155:56:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 2698,
+          "agentRegistry": "eip155:100:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 91,
+          "agentRegistry": "eip155:137:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 19,
+          "agentRegistry": "eip155:143:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 101,
+          "agentRegistry": "eip155:196:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 132,
+          "agentRegistry": "eip155:1088:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 629,
+          "agentRegistry": "eip155:2741:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 117,
+          "agentRegistry": "eip155:4326:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 91,
+          "agentRegistry": "eip155:5000:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 2344,
+          "agentRegistry": "eip155:8453:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": 505,
+          "agentRegistry": "eip155:42161:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 163,
+          "agentRegistry": "eip155:42220:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 1619,
+          "agentRegistry": "eip155:43114:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 109,
+          "agentRegistry": "eip155:59144:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 4,
+          "agentRegistry": "eip155:167000:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 104,
+          "agentRegistry": "eip155:534352:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": 91,
+          "agentRegistry": "eip155:1187947933:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": null,
+          "agentRegistry": "eip155:1329:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": null,
+          "agentRegistry": "eip155:3338:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        },
+        {
+          "agentId": null,
+          "agentRegistry": "eip155:360:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+        }
+      ],
+      "supportedTrust": [
+        "reputation",
+        "crypto-economic",
+        "tee-attestation"
+      ]
+    },
+    "risk_level": "SAFE",
+    "cluster_size": 1,
+    "cluster_evidence": [],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 40,
+    "breakdown": {
+      "completeness": 80,
+      "capability": 0,
+      "owner_reputation": 100,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "C"
+  },
+  {
+    "agent_id": 93,
+    "owner": "0x663554FC6cdc30bA29421CEA92b548cC4D694662",
+    "uri_type": "ipfs",
+    "name": "Pantr",
+    "description": "AI-powered degen trading assistant on Telegram. Claude (Anthropic) brain — autonomous buy/sell decisions on Solana, Base, and Mantle. Alpha caller tracking, wallet monitoring, token safety checks, and",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+      "name": "Pantr",
+      "description": "AI-powered degen trading assistant on Telegram. Claude (Anthropic) brain — autonomous buy/sell decisions on Solana, Base, and Mantle. Alpha caller tracking, wallet monitoring, token safety checks, and portfolio management.",
+      "image": "https://docs.pantr.xyz/icon.jpg",
+      "services": [
+        {
+          "name": "Telegram Trading Bot",
+          "endpoint": "https://t.me/PantrAgent_bot",
+          "version": "1.0.0",
+          "skills": [
+            "trading/token-buy-sell",
+            "trading/alpha-detection",
+            "trading/portfolio-management",
+            "trading/token-safety-analysis",
+            "trading/wallet-monitoring"
+          ],
+          "domains": [
+            "defi",
+            "trading",
+            "crypto",
+            "telegram-bot"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "X / Twitter",
+          "url": "https://x.com/pantrbot"
+        },
+        {
+          "label": "Telegram Bot",
+          "url": "https://t.me/PantrAgent_bot"
+        }
+      ],
+      "active": true,
+      "x402Support": false,
+      "supportedTrust": [
+        "reputation"
+      ],
+      "registrations": [
+        {
+          "agentId": "50984",
+          "agentRegistry": "eip155:8453:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        },
+        {
+          "agentId": "93",
+          "agentRegistry": "eip155:5000:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+        }
+      ]
+    },
+    "risk_level": "SAFE",
+    "cluster_size": 1,
+    "cluster_evidence": [],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 40,
+    "breakdown": {
+      "completeness": 80,
+      "capability": 0,
+      "owner_reputation": 100,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "C"
+  },
+  {
+    "agent_id": 94,
+    "owner": "0x2cA915EF6be8D2D48ccD3c5dAF715546AF873A4c",
+    "uri_type": "data_base64",
+    "name": "Langclaw Mantle Alpha Sentinel",
+    "description": "AI agent for Mantle on-chain intelligence, smart-money monitoring, liquidity anomaly detection, and verifiable decision proof.",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+      "name": "Langclaw Mantle Alpha Sentinel",
+      "description": "AI agent for Mantle on-chain intelligence, smart-money monitoring, liquidity anomaly detection, and verifiable decision proof.",
+      "image": "https://mantle.xyz/favicon.ico",
+      "services": [
+        {
+          "name": "web",
+          "endpoint": "https://github.com/Langclaw-AI"
+        }
+      ],
+      "active": true,
+      "supportedTrust": [
+        "reputation",
+        "validation",
+        "tee-attestation"
+      ]
+    },
+    "risk_level": "SAFE",
+    "cluster_size": 1,
+    "cluster_evidence": [],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 40,
+    "breakdown": {
+      "completeness": 80,
+      "capability": 0,
+      "owner_reputation": 100,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "C"
+  },
+  {
+    "agent_id": 96,
+    "owner": "0x2a3080AA52DE07702dd30b81cC97C3527e605B6A",
+    "uri_type": "empty",
+    "name": "(unnamed)",
+    "description": "",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": null,
+    "risk_level": "SAFE",
+    "cluster_size": 1,
+    "cluster_evidence": [],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 20,
+    "breakdown": {
+      "completeness": 0,
+      "capability": 0,
+      "owner_reputation": 100,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "D"
+  },
+  {
+    "agent_id": 2,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-001",
+    "description": "DEfi能は渻要成 WeaXulsa　Trust",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-001",
+      "description": "DEfi能は渻要成 WeaXulsa　Trust"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 3,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-003",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-003",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 4,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-004",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-004",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 5,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-005",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-005",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 6,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-006",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-006",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 7,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-007",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-007",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 8,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-008",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-008",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 9,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-009",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-009",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 10,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-010",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-010",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 11,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-011",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-011",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 12,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-012",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-012",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 13,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-013",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-013",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 14,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-014",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-014",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 15,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-015",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-015",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 16,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-016",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-016",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 17,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-017",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-017",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 18,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-018",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-018",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 19,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-019",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-019",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 20,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-020",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-020",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 21,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-021",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-021",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 22,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-022",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-022",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 23,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-023",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-023",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 24,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-024",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-024",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 25,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-026",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-026",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 26,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-028",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-028",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 27,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-031",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-031",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 28,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-034",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-034",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 29,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-035",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-035",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 30,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-036",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-036",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 31,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-037",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-037",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 32,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-038",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-038",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 33,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-040",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-040",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 34,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-042",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-042",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 35,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-043",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-043",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 36,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-046",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-046",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 37,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-049",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-049",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 38,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-050",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-050",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 39,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-051",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-051",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 40,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-052",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-052",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 41,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-053",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-053",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 42,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-054",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-054",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 43,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-055",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-055",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 44,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-056",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-056",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 45,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-057",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-057",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 46,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-058",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-058",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 47,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-059",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-059",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 48,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-060",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-060",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 49,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-061",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-061",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 50,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-062",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-062",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 51,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-063",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-063",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 52,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-064",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-064",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 53,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-065",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-065",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 54,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-066",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-066",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 55,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-067",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-067",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 56,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-068",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-068",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 57,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-069",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-069",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 58,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-070",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-070",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 59,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-071",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-071",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 60,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-072",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-072",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 61,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-073",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-073",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 62,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-074",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-074",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 63,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-075",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-075",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 64,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-076",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-076",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 65,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-077",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-077",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 66,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-078",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-078",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 67,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-079",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-079",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 68,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-080",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-080",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 69,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-081",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-081",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 70,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-082",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-082",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 71,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-083",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-083",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 72,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-084",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-084",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 73,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-085",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-085",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 74,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-086",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-086",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 75,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-087",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-087",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 76,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-088",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-088",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 77,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-089",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-089",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 78,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-090",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-090",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 79,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-091",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-091",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 80,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-092",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-092",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 81,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-093",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-093",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 82,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-094",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-094",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 83,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-096",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-096",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 84,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-097",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-097",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 85,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-098",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-098",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 86,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-099",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-099",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 87,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-100",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-100",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 88,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-101",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-101",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 89,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-102",
+    "description": "套利机器人，跨DEX价格监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-102",
+      "description": "套利机器人，跨DEX价格监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  },
+  {
+    "agent_id": 90,
+    "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+    "uri_type": "data_base64",
+    "name": "babycaisubagent-025",
+    "description": "数据分析师，链上指标监控",
+    "skills_count": 0,
+    "endpoints_count": 0,
+    "raw_metadata": {
+      "name": "babycaisubagent-025",
+      "description": "数据分析师，链上指标监控"
+    },
+    "risk_level": "SYBIL",
+    "cluster_size": 89,
+    "cluster_evidence": [
+      "Owner controls 89 agents (mass registration)",
+      "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+      "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+    ],
+    "reputation": {
+      "feedback_count": 0,
+      "unique_client_count": 0,
+      "avg_score": null,
+      "top_tags": []
+    },
+    "lumen_score": 11,
+    "breakdown": {
+      "completeness": 40,
+      "capability": 0,
+      "owner_reputation": 5,
+      "verifiability": 0,
+      "activity": 0
+    },
+    "grade": "F"
+  }
+]

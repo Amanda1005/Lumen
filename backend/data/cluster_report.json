@@ -1,0 +1,229 @@
+{
+  "summary": {
+    "total_agents": 97,
+    "total_owners": 9,
+    "risk_distribution_by_owner": {
+      "SAFE": 8,
+      "SUSPICIOUS": 0,
+      "SYBIL": 1
+    },
+    "risk_distribution_by_agent": {
+      "SAFE": 8,
+      "SUSPICIOUS": 0,
+      "SYBIL": 89
+    },
+    "sybil_share_percent": 91.8,
+    "headline": "92% of AI agents on Mantle are controlled by SYBIL clusters"
+  },
+  "clusters": [
+    {
+      "owner": "0xbF0E0e7AfDe9B7F42f5D93D3aEBdE53aF14bBa70",
+      "agent_count": 89,
+      "risk_level": "SYBIL",
+      "confidence": 0.95,
+      "evidence": [
+        "Owner controls 89 agents (mass registration)",
+        "Sequential naming: 'babycaisubagent' x89 (range 1-102)",
+        "Duplicate description x87: \"套利机器人，跨DEX价格监控\""
+      ],
+      "agent_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sequential_patterns": {
+        "babycaisubagent": {
+          "count": 89,
+          "range": [
+            1,
+            102
+          ],
+          "is_continuous": false
+        }
+      },
+      "duplicate_description_count": 1
+    },
+    {
+      "owner": "0x1be93C700dDC596D701E8F2106B8F9166C625Adb",
+      "agent_count": 1,
+      "risk_level": "SAFE",
+      "confidence": 1.0,
+      "evidence": [],
+      "agent_ids": [
+        0
+      ],
+      "sequential_patterns": {},
+      "duplicate_description_count": 0
+    },
+    {
+      "owner": "0x6446aD9821021Eeb9f85B8a18B0153d58166d161",
+      "agent_count": 1,
+      "risk_level": "SAFE",
+      "confidence": 1.0,
+      "evidence": [],
+      "agent_ids": [
+        1
+      ],
+      "sequential_patterns": {},
+      "duplicate_description_count": 0
+    },
+    {
+      "owner": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc",
+      "agent_count": 1,
+      "risk_level": "SAFE",
+      "confidence": 1.0,
+      "evidence": [],
+      "agent_ids": [
+        91
+      ],
+      "sequential_patterns": {},
+      "duplicate_description_count": 0
+    },
+    {
+      "owner": "0x5698E89Ec2396e02679ddde33c2BA78de88F7fce",
+      "agent_count": 1,
+      "risk_level": "SAFE",
+      "confidence": 1.0,
+      "evidence": [],
+      "agent_ids": [
+        92
+      ],
+      "sequential_patterns": {},
+      "duplicate_description_count": 0
+    },
+    {
+      "owner": "0x663554FC6cdc30bA29421CEA92b548cC4D694662",
+      "agent_count": 1,
+      "risk_level": "SAFE",
+      "confidence": 1.0,
+      "evidence": [],
+      "agent_ids": [
+        93
+      ],
+      "sequential_patterns": {},
+      "duplicate_description_count": 0
+    },
+    {
+      "owner": "0x2cA915EF6be8D2D48ccD3c5dAF715546AF873A4c",
+      "agent_count": 1,
+      "risk_level": "SAFE",
+      "confidence": 1.0,
+      "evidence": [],
+      "agent_ids": [
+        94
+      ],
+      "sequential_patterns": {},
+      "duplicate_description_count": 0
+    },
+    {
+      "owner": "0xCf939578c60D4dB550D5022A3489b50161d3F95C",
+      "agent_count": 1,
+      "risk_level": "SAFE",
+      "confidence": 1.0,
+      "evidence": [],
+      "agent_ids": [
+        95
+      ],
+      "sequential_patterns": {},
+      "duplicate_description_count": 0
+    },
+    {
+      "owner": "0x2a3080AA52DE07702dd30b81cC97C3527e605B6A",
+      "agent_count": 1,
+      "risk_level": "SAFE",
+      "confidence": 1.0,
+      "evidence": [],
+      "agent_ids": [
+        96
+      ],
+      "sequential_patterns": {},
+      "duplicate_description_count": 0
+    }
+  ]
+}

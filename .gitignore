@@ -1,0 +1,30 @@
+node_modules/
+.env
+.env.local
+__pycache__/
+*.pyc
+.DS_Store
+dist/
+build/
+.next/
+out/
+broadcast/
+cache/
+artifacts/
+
+# Python venv
+backend/venv/
+venv/
+
+# Foundry
+contracts/lib/
+contracts/cache/
+contracts/out/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+
+# Lumen data (optional - 看你要不要 commit 跑出來的資料)
+# 如果要展示給 Chris 看,留著;不想佔倉庫空間,unc​omment 下面這行
+# backend/data/*.json

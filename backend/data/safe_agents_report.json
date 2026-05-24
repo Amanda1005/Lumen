@@ -1,0 +1,273 @@
+[
+  {
+    "agent_id": 95,
+    "name": "AgentGuard Demo Agent",
+    "owner": "0xCf939578c60D4dB550D5022A3489b50161d3F95C",
+    "owner_short": "0xCf93...F95C",
+    "uri_type": "data_base64",
+    "description": "AgentGuard demo agent — intent-verified, firewall-gated trader for Mantle. Issues signed intents; every action is double-checked by the AgentGuard ActionFirewall (ERC-8004 policy receipts on Mantle ma",
+    "risk_level": "SAFE",
+    "dimensions": {
+      "completeness": 80,
+      "has_description": true,
+      "has_skills": true,
+      "has_endpoints": true,
+      "has_homepage": false,
+      "skills_count": 2,
+      "endpoints_count": 2,
+      "description_length": 225
+    },
+    "raw_metadata_keys": [
+      "schema",
+      "agentDomain",
+      "name",
+      "description",
+      "version",
+      "hackathon",
+      "purpose",
+      "owner",
+      "endpoints",
+      "skills",
+      "tools",
+      "registries",
+      "chain"
+    ],
+    "skills": [
+      "intent-verification",
+      "rwa-risk-firewall"
+    ],
+    "endpoints": [
+      {
+        "protocol": "a2a",
+        "url": "demo-placeholder://agentguard/a2a",
+        "status": "demo-placeholder"
+      },
+      {
+        "protocol": "agentguard-orchestrator",
+        "url": "demo-placeholder://agentguard/orchestrator",
+        "status": "demo-placeholder"
+      }
+    ],
+    "homepage": null
+  },
+  {
+    "agent_id": 0,
+    "name": "Arca",
+    "owner": "0x1be93C700dDC596D701E8F2106B8F9166C625Adb",
+    "owner_short": "0x1be9...5Adb",
+    "uri_type": "https",
+    "description": "Autonomous AI agent building web3 infrastructure for agents and humans. Creator of A3Stack SDK for agent identity, discovery, payments, data, and accounts; creator of ClawFix for OpenClaw repair; publ",
+    "risk_level": "SAFE",
+    "dimensions": {
+      "completeness": 40,
+      "has_description": true,
+      "has_skills": false,
+      "has_endpoints": false,
+      "has_homepage": false,
+      "skills_count": 0,
+      "endpoints_count": 0,
+      "description_length": 388
+    },
+    "raw_metadata_keys": [
+      "type",
+      "name",
+      "description",
+      "image",
+      "services",
+      "x402Support",
+      "active",
+      "registrations",
+      "supportedTrust"
+    ],
+    "skills": [],
+    "endpoints": [],
+    "homepage": null
+  },
+  {
+    "agent_id": 93,
+    "name": "Pantr",
+    "owner": "0x663554FC6cdc30bA29421CEA92b548cC4D694662",
+    "owner_short": "0x6635...4662",
+    "uri_type": "ipfs",
+    "description": "AI-powered degen trading assistant on Telegram. Claude (Anthropic) brain — autonomous buy/sell decisions on Solana, Base, and Mantle. Alpha caller tracking, wallet monitoring, token safety checks, and",
+    "risk_level": "SAFE",
+    "dimensions": {
+      "completeness": 40,
+      "has_description": true,
+      "has_skills": false,
+      "has_endpoints": false,
+      "has_homepage": false,
+      "skills_count": 0,
+      "endpoints_count": 0,
+      "description_length": 222
+    },
+    "raw_metadata_keys": [
+      "type",
+      "name",
+      "description",
+      "image",
+      "services",
+      "links",
+      "active",
+      "x402Support",
+      "supportedTrust",
+      "registrations"
+    ],
+    "skills": [],
+    "endpoints": [],
+    "homepage": null
+  },
+  {
+    "agent_id": 92,
+    "name": "Obelisk Q Wealth Navigator",
+    "owner": "0x5698E89Ec2396e02679ddde33c2BA78de88F7fce",
+    "owner_short": "0x5698...7fce",
+    "uri_type": "https",
+    "description": "Autonomous AI agent optimized for Mantle Mainnet yield rebalancing across mETH, USDY, and WMNT. Operates on a multi-agent LangGraph architecture with real-time market regime detection.",
+    "risk_level": "SAFE",
+    "dimensions": {
+      "completeness": 40,
+      "has_description": true,
+      "has_skills": false,
+      "has_endpoints": false,
+      "has_homepage": false,
+      "skills_count": 0,
+      "endpoints_count": 0,
+      "description_length": 184
+    },
+    "raw_metadata_keys": [
+      "name",
+      "description",
+      "image",
+      "external_url",
+      "capabilities",
+      "architecture",
+      "version",
+      "attributes"
+    ],
+    "skills": [],
+    "endpoints": [],
+    "homepage": null
+  },
+  {
+    "agent_id": 91,
+    "name": "ClawdMint",
+    "owner": "0x75b583C518215E272f3C0a3BCC1b27012F294Adc",
+    "owner_short": "0x75b5...4Adc",
+    "uri_type": "ipfs",
+    "description": "ClawdMint is honest, kind & peppermint-flavored multichain AI agent with real-time blockchain analysis, market data, and x402 micropayment support across multiple chains.",
+    "risk_level": "SAFE",
+    "dimensions": {
+      "completeness": 40,
+      "has_description": true,
+      "has_skills": false,
+      "has_endpoints": false,
+      "has_homepage": false,
+      "skills_count": 0,
+      "endpoints_count": 0,
+      "description_length": 170
+    },
+    "raw_metadata_keys": [
+      "name",
+      "type",
+      "image",
+      "active",
+      "services",
+      "description",
+      "x402support",
+      "x402",
+      "registrations",
+      "supportedTrust"
+    ],
+    "skills": [],
+    "endpoints": [],
+    "homepage": null
+  },
+  {
+    "agent_id": 94,
+    "name": "Langclaw Mantle Alpha Sentinel",
+    "owner": "0x2cA915EF6be8D2D48ccD3c5dAF715546AF873A4c",
+    "owner_short": "0x2cA9...3A4c",
+    "uri_type": "data_base64",
+    "description": "AI agent for Mantle on-chain intelligence, smart-money monitoring, liquidity anomaly detection, and verifiable decision proof.",
+    "risk_level": "SAFE",
+    "dimensions": {
+      "completeness": 40,
+      "has_description": true,
+      "has_skills": false,
+      "has_endpoints": false,
+      "has_homepage": false,
+      "skills_count": 0,
+      "endpoints_count": 0,
+      "description_length": 126
+    },
+    "raw_metadata_keys": [
+      "type",
+      "name",
+      "description",
+      "image",
+      "services",
+      "active",
+      "supportedTrust"
+    ],
+    "skills": [],
+    "endpoints": [],
+    "homepage": null
+  },
+  {
+    "agent_id": 1,
+    "name": "Arron C. ",
+    "owner": "0x6446aD9821021Eeb9f85B8a18B0153d58166d161",
+    "owner_short": "0x6446...d161",
+    "uri_type": "data_gzip",
+    "description": " analyze data, make, and execute financial decisions, directly interacting with blockchain ecosystems",
+    "risk_level": "SAFE",
+    "dimensions": {
+      "completeness": 40,
+      "has_description": true,
+      "has_skills": false,
+      "has_endpoints": false,
+      "has_homepage": false,
+      "skills_count": 0,
+      "endpoints_count": 0,
+      "description_length": 101
+    },
+    "raw_metadata_keys": [
+      "type",
+      "name",
+      "description",
+      "image",
+      "services",
+      "registrations",
+      "supportedTrusts",
+      "active",
+      "x402support"
+    ],
+    "skills": [],
+    "endpoints": [],
+    "homepage": null
+  },
+  {
+    "agent_id": 96,
+    "name": "(unnamed)",
+    "owner": "0x2a3080AA52DE07702dd30b81cC97C3527e605B6A",
+    "owner_short": "0x2a30...5B6A",
+    "uri_type": "empty",
+    "description": "",
+    "risk_level": "SAFE",
+    "dimensions": {
+      "completeness": 0,
+      "has_description": false,
+      "has_skills": false,
+      "has_endpoints": false,
+      "has_homepage": false,
+      "skills_count": 0,
+      "endpoints_count": 0,
+      "description_length": 0
+    },
+    "raw_metadata_keys": [],
+    "skills": [],
+    "endpoints": [],
+    "homepage": null
+  }
+]
