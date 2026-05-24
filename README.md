@@ -41,32 +41,31 @@ Each agent gets a **0-100 Lumen Score** and a **Trust Status** (Safe / Caution /
 ## Architecture
 
 ```
-
 ┌─────────────────────────────────────────────────┐
-│  Mantle ERC-8004 (IdentityRegistry + ReputationRegistry)  │
+│  Mantle ERC-8004 (IdentityRegistry +            │
+│  ReputationRegistry)                            │
 └──────────────────────┬──────────────────────────┘
-│ (on-chain reads)
-↓
+                       │ (on-chain reads)
+                       ↓
 ┌─────────────────────────────────────────────────┐
-│  Indexer Pipeline (Python + web3.py)           │
+│  Indexer Pipeline (Python + web3.py)            │
 │  - Agent indexer                                │
-│  - Metadata decoder (base64 / gzip / IPFS)     │
+│  - Metadata decoder (base64 / gzip / IPFS)      │
 │  - Sybil cluster detector                       │
 │  - Reputation indexer                           │
 └──────────────────────┬──────────────────────────┘
-│
-↓
+                       │
+                       ↓
 ┌─────────────────────────────────────────────────┐
-│  Scoring Engine + Claude Analyst Agent         │
-│  → Lumen Score + institutional-grade notes      │
+│  Scoring Engine + Claude Analyst Agent          │
+│  → Lumen Score + institutional-grade notes     │
 └──────────────────────┬──────────────────────────┘
-│
-↓
+                       │
+                       ↓
 ┌─────────────────────────────────────────────────┐
-│  FastAPI + Next.js Frontend                    │
-│  Bloomberg-style trust ratings dashboard       │
+│  FastAPI + Next.js Frontend                     │
+│  Bloomberg-style trust ratings dashboard        │
 └─────────────────────────────────────────────────┘
-
 ```
 
 ---
