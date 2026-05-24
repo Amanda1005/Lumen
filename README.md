@@ -40,6 +40,8 @@ Each agent gets a **0-100 Lumen Score** and a **Trust Status** (Safe / Caution /
 
 ## Architecture
 
+```
+
 ┌─────────────────────────────────────────────────┐
 │  Mantle ERC-8004 (IdentityRegistry + ReputationRegistry)  │
 └──────────────────────┬──────────────────────────┘
@@ -64,6 +66,8 @@ Each agent gets a **0-100 Lumen Score** and a **Trust Status** (Safe / Caution /
 │  FastAPI + Next.js Frontend                    │
 │  Bloomberg-style trust ratings dashboard       │
 └─────────────────────────────────────────────────┘
+
+```
 
 ---
 
