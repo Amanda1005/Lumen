@@ -94,3 +94,70 @@ def get_agent(
         if a["agent_id"] == agent_id:
             return a
     raise HTTPException(404, f"Agent {agent_id} not found")
+
+@app.get("/api/cluster-graph")
+@limiter.limit("60/minute")
+def cluster_graph(request: Request):
+    """Return graph data: owner nodes + agent nodes + edges."""
+    agents = load_agents()
+
+    owner_to_agents: dict[str, list[dict]] = {}
+    for a in agents:
+        owner = a["owner"]
+        owner_to_agents.setdefault(owner, []).append(a)
+
+    nodes = []
+    links = []
+
+    for owner, owner_agents in owner_to_agents.items():
+        risk_levels = {a.get("risk_level") for a in owner_agents}
+        is_sybil = "SYBIL" in risk_levels
+        agent_count = len(owner_agents)
+
+        # Owner node
+        nodes.append({
+            "id": f"owner:{owner}",
+            "type": "owner",
+            "label": owner[:6] + "..." + owner[-4:],
+            "full_address": owner,
+            "agent_count": agent_count,
+            "is_sybil": is_sybil,
+        })
+
+        # Agent nodes + edges
+        for a in owner_agents:
+            agent_id = f"agent:{a['agent_id']}"
+            nodes.append({
+                "id": agent_id,
+                "type": "agent",
+                "label": a.get("name", "(unnamed)"),
+                "agent_id": a["agent_id"],
+                "lumen_score": a["lumen_score"],
+                "risk_level": a.get("risk_level"),
+            })
+            links.append({
+                "source": f"owner:{owner}",
+                "target": agent_id,
+            })
+
+    return {"nodes": nodes, "links": links}
+
+@app.get("/api/grade-distribution")
+@limiter.limit("60/minute")
+def grade_distribution(request: Request):
+    """Return count of agents per grade for visualization."""
+    agents = load_agents()
+
+    grades = {"A": 0, "B": 0, "C": 0, "D": 0, "F": 0}
+    for a in agents:
+        g = a.get("grade", "F")
+        if g in grades:
+            grades[g] += 1
+
+    return {
+        "distribution": [
+            {"grade": g, "count": c, "percent": round(c / len(agents) * 100, 1)}
+            for g, c in grades.items()
+        ],
+        "total": len(agents),
+    }

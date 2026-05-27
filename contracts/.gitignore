@@ -1,0 +1,11 @@
+# Build artifacts
+out/
+cache/
+broadcast/
+
+# Dependencies
+lib/
+
+# Secrets
+.env
+.env.local

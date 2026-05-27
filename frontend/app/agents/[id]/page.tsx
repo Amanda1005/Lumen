@@ -3,6 +3,14 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import {
+  Radar,
+  RadarChart,
+  PolarGrid,
+  PolarAngleAxis,
+  PolarRadiusAxis,
+  ResponsiveContainer,
+} from "recharts";
 
 type Agent = {
   agent_id: number;
@@ -35,10 +43,29 @@ type Agent = {
 const API_BASE = "http://localhost:8000";
 
 function trustStatus(risk: string, score: number) {
-  if (risk === "SYBIL") return { label: "HIGH RISK", color: "text-red-400", bg: "bg-red-950/50 border-red-900" };
-  if (risk === "SUSPICIOUS") return { label: "CAUTION", color: "text-yellow-400", bg: "bg-yellow-950/50 border-yellow-900" };
-  if (score < 30) return { label: "CAUTION", color: "text-yellow-400", bg: "bg-yellow-950/50 border-yellow-900" };
-  return { label: "SAFE", color: "text-emerald-400", bg: "bg-emerald-950/50 border-emerald-900" };
+  if (risk === "SYBIL")
+    return {
+      label: "HIGH RISK",
+      color: "text-red-400",
+      bg: "bg-red-950/50 border-red-900",
+    };
+  if (risk === "SUSPICIOUS")
+    return {
+      label: "CAUTION",
+      color: "text-yellow-400",
+      bg: "bg-yellow-950/50 border-yellow-900",
+    };
+  if (score < 30)
+    return {
+      label: "CAUTION",
+      color: "text-yellow-400",
+      bg: "bg-yellow-950/50 border-yellow-900",
+    };
+  return {
+    label: "SAFE",
+    color: "text-emerald-400",
+    bg: "bg-emerald-950/50 border-emerald-900",
+  };
 }
 
 export default function AgentDetailPage() {
@@ -51,15 +78,15 @@ export default function AgentDetailPage() {
 
   useEffect(() => {
     fetch(`${API_BASE}/api/agents/${agentId}`)
-      .then(r => {
+      .then((r) => {
         if (!r.ok) throw new Error(`Agent #${agentId} not found`);
         return r.json();
       })
-      .then(data => {
+      .then((data) => {
         setAgent(data);
         setLoading(false);
       })
-      .catch(err => {
+      .catch((err) => {
         setError(err.message);
         setLoading(false);
       });
@@ -79,7 +106,10 @@ export default function AgentDetailPage() {
         <div className="text-red-400">
           {error || "Agent not found"}
           <div className="mt-4">
-            <Link href="/" className="text-zinc-400 hover:text-zinc-100 underline">
+            <Link
+              href="/"
+              className="text-zinc-400 hover:text-zinc-100 underline"
+            >
               ← Back to rankings
             </Link>
           </div>
@@ -95,10 +125,15 @@ export default function AgentDetailPage() {
       {/* Header */}
       <header className="border-b border-zinc-800 px-6 py-4">
         <div className="max-w-5xl mx-auto flex items-baseline gap-4">
-          <Link href="/" className="text-xl font-bold tracking-tight hover:text-zinc-300">
+          <Link
+            href="/"
+            className="text-xl font-bold tracking-tight hover:text-zinc-300"
+          >
             LUMEN
           </Link>
-          <span className="text-zinc-500 text-sm">/ Agent #{agent.agent_id}</span>
+          <span className="text-zinc-500 text-sm">
+            / Agent #{agent.agent_id}
+          </span>
         </div>
       </header>
 
@@ -107,7 +142,9 @@ export default function AgentDetailPage() {
         <section className={`border rounded p-6 ${status.bg}`}>
           <div className="flex items-baseline justify-between flex-wrap gap-4">
             <div>
-              <div className={`text-xs tracking-widest ${status.color} mb-1`}>
+              <div
+                className={`text-xs tracking-widest ${status.color} mb-1`}
+              >
                 TRUST STATUS
               </div>
               <div className={`text-3xl font-bold ${status.color}`}>
@@ -115,19 +152,25 @@ export default function AgentDetailPage() {
               </div>
             </div>
             <div className="text-right">
-              <div className="text-xs text-zinc-500 tracking-widest mb-1">LUMEN SCORE</div>
+              <div className="text-xs text-zinc-500 tracking-widest mb-1">
+                LUMEN SCORE
+              </div>
               <div className="text-4xl font-bold text-zinc-100">
                 {agent.lumen_score}
                 <span className="text-zinc-500 text-2xl ml-2">/ 100</span>
               </div>
-              <div className="text-sm text-zinc-400 mt-1">Grade {agent.grade}</div>
+              <div className="text-sm text-zinc-400 mt-1">
+                Grade {agent.grade}
+              </div>
             </div>
           </div>
 
           {/* Risk evidence */}
           {agent.cluster_evidence && agent.cluster_evidence.length > 0 && (
             <div className="mt-6 pt-6 border-t border-red-900/50">
-              <div className="text-xs text-red-400 tracking-widest mb-2">⚠ RISK EVIDENCE</div>
+              <div className="text-xs text-red-400 tracking-widest mb-2">
+                ⚠ RISK EVIDENCE
+              </div>
               <ul className="space-y-1 text-sm text-red-300">
                 {agent.cluster_evidence.map((evidence, i) => (
                   <li key={i}>• {evidence}</li>
@@ -137,7 +180,7 @@ export default function AgentDetailPage() {
           )}
         </section>
 
-        {/* Analyst Note - NEW */}
+        {/* Analyst Note */}
         {agent.analyst_note && (
           <section className="border border-zinc-800 rounded p-6 bg-zinc-900/30">
             <div className="text-xs text-zinc-500 tracking-widest mb-3">
@@ -151,8 +194,12 @@ export default function AgentDetailPage() {
 
         {/* Agent Info */}
         <section className="border border-zinc-800 rounded p-6">
-          <div className="text-xs text-zinc-500 tracking-widest mb-3">AGENT</div>
-          <div className="text-2xl text-zinc-100 mb-2">{agent.name || "(unnamed)"}</div>
+          <div className="text-xs text-zinc-500 tracking-widest mb-3">
+            AGENT
+          </div>
+          <div className="text-2xl text-zinc-100 mb-2">
+            {agent.name || "(unnamed)"}
+          </div>
           <div className="text-sm text-zinc-400 leading-relaxed">
             {agent.description || "(no description)"}
           </div>
@@ -169,41 +216,101 @@ export default function AgentDetailPage() {
           </div>
         </section>
 
-        {/* Score Breakdown */}
+        {/* Score Breakdown with Radar */}
         <section className="border border-zinc-800 rounded p-6">
-          <div className="text-xs text-zinc-500 tracking-widest mb-4">SCORE BREAKDOWN</div>
-          <div className="space-y-3">
-            {Object.entries(agent.breakdown).map(([key, value]) => (
-              <div key={key}>
-                <div className="flex justify-between text-sm mb-1">
-                  <span className="text-zinc-400 capitalize">
-                    {key.replace("_", " ")}
-                  </span>
-                  <span className="text-zinc-100">{value} / 100</span>
-                </div>
-                <div className="h-1 bg-zinc-900 rounded overflow-hidden">
-                  <div
-                    className="h-full bg-emerald-500"
-                    style={{ width: `${value}%` }}
+          <div className="text-xs text-zinc-500 tracking-widest mb-4">
+            SCORE BREAKDOWN
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 items-center">
+            {/* Radar chart */}
+            <div className="h-64">
+              <ResponsiveContainer width="100%" height="100%">
+                <RadarChart
+                  data={[
+                    {
+                      dimension: "Completeness",
+                      value: agent.breakdown.completeness,
+                    },
+                    {
+                      dimension: "Capability",
+                      value: agent.breakdown.capability,
+                    },
+                    {
+                      dimension: "Owner Rep.",
+                      value: agent.breakdown.owner_reputation,
+                    },
+                    {
+                      dimension: "Verifiability",
+                      value: agent.breakdown.verifiability,
+                    },
+                    {
+                      dimension: "Activity",
+                      value: agent.breakdown.activity,
+                    },
+                  ]}
+                >
+                  <PolarGrid stroke="#3f3f46" />
+                  <PolarAngleAxis
+                    dataKey="dimension"
+                    tick={{ fill: "#a1a1aa", fontSize: 11 }}
                   />
+                  <PolarRadiusAxis
+                    angle={90}
+                    domain={[0, 100]}
+                    tick={{ fill: "#52525b", fontSize: 10 }}
+                    tickCount={6}
+                  />
+                  <Radar
+                    name="Score"
+                    dataKey="value"
+                    stroke="#10b981"
+                    fill="#10b981"
+                    fillOpacity={0.3}
+                  />
+                </RadarChart>
+              </ResponsiveContainer>
+            </div>
+
+            {/* Progress bars */}
+            <div className="space-y-3">
+              {Object.entries(agent.breakdown).map(([key, value]) => (
+                <div key={key}>
+                  <div className="flex justify-between text-sm mb-1">
+                    <span className="text-zinc-400 capitalize">
+                      {key.replace("_", " ")}
+                    </span>
+                    <span className="text-zinc-100">{value} / 100</span>
+                  </div>
+                  <div className="h-1 bg-zinc-900 rounded overflow-hidden">
+                    <div
+                      className="h-full bg-emerald-500"
+                      style={{ width: `${value}%` }}
+                    />
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </section>
 
         {/* Reputation */}
         <section className="border border-zinc-800 rounded p-6">
-          <div className="text-xs text-zinc-500 tracking-widest mb-4">ON-CHAIN REPUTATION</div>
+          <div className="text-xs text-zinc-500 tracking-widest mb-4">
+            ON-CHAIN REPUTATION
+          </div>
           {agent.reputation.feedback_count > 0 ? (
             <div className="space-y-3 text-sm">
               <div className="flex justify-between">
                 <span className="text-zinc-500">Feedback count</span>
-                <span className="text-zinc-100">{agent.reputation.feedback_count}</span>
+                <span className="text-zinc-100">
+                  {agent.reputation.feedback_count}
+                </span>
               </div>
               <div className="flex justify-between">
                 <span className="text-zinc-500">Unique clients</span>
-                <span className="text-zinc-100">{agent.reputation.unique_client_count}</span>
+                <span className="text-zinc-100">
+                  {agent.reputation.unique_client_count}
+                </span>
               </div>
               {agent.reputation.avg_score !== null && (
                 <div className="flex justify-between">
@@ -220,7 +327,9 @@ export default function AgentDetailPage() {
               )}
             </div>
           ) : (
-            <div className="text-zinc-500 text-sm">No on-chain feedback yet</div>
+            <div className="text-zinc-500 text-sm">
+              No on-chain feedback yet
+            </div>
           )}
         </section>
 
